@@ -12,6 +12,11 @@ public protocol CGContextAuditType {
 
 }
 
+public enum CGContextManagementCall: CGContextAuditType {
+    case Flush
+    case Synchronize
+}
+
 public enum CGContextStackStateCall: CGContextAuditType {
     case Save
     case Restore

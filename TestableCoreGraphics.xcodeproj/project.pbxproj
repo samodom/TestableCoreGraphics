@@ -14,6 +14,7 @@
 		0A938D231A8FD0CF00B78C9F /* CGContextAuditTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A938D211A8FD0CF00B78C9F /* CGContextAuditTypes.swift */; };
 		0A938D251A8FDE0300B78C9F /* CGContextAuditedCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A938D241A8FDE0300B78C9F /* CGContextAuditedCall.swift */; };
 		0A938D261A8FDE0300B78C9F /* CGContextAuditedCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A938D241A8FDE0300B78C9F /* CGContextAuditedCall.swift */; };
+		0ACE40D51A8FDF5700533458 /* ContextManagementCallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACE40D41A8FDF5700533458 /* ContextManagementCallTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		0A938D1E1A8FC89300B78C9F /* ContextStateStackCallTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContextStateStackCallTests.swift; sourceTree = "<group>"; };
 		0A938D211A8FD0CF00B78C9F /* CGContextAuditTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGContextAuditTypes.swift; sourceTree = "<group>"; };
 		0A938D241A8FDE0300B78C9F /* CGContextAuditedCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGContextAuditedCall.swift; sourceTree = "<group>"; };
+		0ACE40D41A8FDF5700533458 /* ContextManagementCallTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContextManagementCallTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		0A938D1D1A8FC86A00B78C9F /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				0ACE40D41A8FDF5700533458 /* ContextManagementCallTests.swift */,
 				0A938D1E1A8FC89300B78C9F /* ContextStateStackCallTests.swift */,
 			);
 			path = Tests;
@@ -242,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ACE40D51A8FDF5700533458 /* ContextManagementCallTests.swift in Sources */,
 				0A938D1F1A8FC89300B78C9F /* ContextStateStackCallTests.swift in Sources */,
 				0A938D261A8FDE0300B78C9F /* CGContextAuditedCall.swift in Sources */,
 				0A938D231A8FD0CF00B78C9F /* CGContextAuditTypes.swift in Sources */,
