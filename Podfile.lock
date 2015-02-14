@@ -1,0 +1,10 @@
+PODS:
+  - CoreGraphicsSwagger (0.0.1)
+
+DEPENDENCIES:
+  - CoreGraphicsSwagger
+
+SPEC CHECKSUMS:
+  CoreGraphicsSwagger: c21eeac08b02270b15751f83996019c8b6c8499e
+
+COCOAPODS: 0.36.0.beta.2
